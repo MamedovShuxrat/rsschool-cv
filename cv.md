@@ -1,4 +1,5 @@
 # Мамедов Шухрат
+![avatar](myPhoto.webp)
 
 ## Контакты
 - **GitHub:** [MamedovShuxrat](https://github.com/MamedovShuxrat)
