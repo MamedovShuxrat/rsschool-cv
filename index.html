@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Мамедов Шухрат</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="cv-container">
+    <header class="cv-header">
+      <img src="./assets/images/myPhoto.webp" alt="Фото Мамедов Шухрат" class="cv-photo">
+      <div class="cv-header-text">
+        <h1>Мамедов Шухрат</h1>
+        <p class="cv-subtitle">Фронтенд-разработчик</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">О себе</a></li>
+          <li><a href="#experience">Опыт</a></li>
+          <li><a href="#projects">Проекты</a></li>
+          <li><a href="#education">Образование</a></li>
+          <li><a href="#code">Код</a></li>
+          <li><a href="#english">Английский</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="cv-content">
+      <aside class="cv-sidebar">
+        <section class="cv-section">
+          <h2>Контакты</h2>
+          <ul class="cv-contacts-list">
+            <li>
+              <span class="cv-contact-label">GitHub</span>
+              <a href="https://github.com/MamedovShuxrat">MamedovShuxrat</a>
+            </li>
+            <li>
+              <span class="cv-contact-label">Discord</span>
+              Шухрат (@lider_20_10)
+            </li>
+            <li>
+              <span class="cv-contact-label">Telegram</span>
+              <a href="https://t.me/lider_20_10">@lider_20_10</a>
+            </li>
+            <li>
+              <span class="cv-contact-label">Email</span>
+              <a href="mailto:lider_20_10@mail.ru">lider_20_10@mail.ru</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="cv-section">
+          <h2>Навыки</h2>
+          <h3>Языки и технологии</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS / SCSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Redux / Redux Toolkit</li>
+            <li>Node.js (базовый)</li>
+          </ul>
+          <h3>Инструменты</h3>
+          <ul>
+            <li>Git</li>
+            <li>БЭМ</li>
+            <li>Адаптивная вёрстка</li>
+            <li>Кросбраузерная вёрстка</li>
+            <li>CMS (MODX)</li>
+            <li>Основы SEO</li>
+            <li>npm</li>
+            <li>Webpack / Vite</li>
+            <li>Axios</li>
+            <li>REST API</li>
+          </ul>
+        </section>
+      </aside>
+
+      <main class="cv-main">
+        <section id="about" class="cv-section">
+          <h2>О себе</h2>
+          <p>
+            Фронтенд-разработчик, специализируюсь на создании удобных и эстетичных веб-интерфейсов. Начал обучаться в 2022, прошёл несколько очных курсов в офлайн школе "Бруноям" web-разработчик, js-разработчик. После начал обучаться в
+            онлайн платформе Скилфактори, участвовал и выиграл в нескольких хакатонах (командная разработка по ТЗ заказчиков). Ключевые качества: внимательность к деталям, ответственность, умение работать в команде и стремление к
+            профессиональному росту.
+          </p>
+        </section>
+
+        <section id="experience" class="cv-section">
+          <h2>Опыт работы</h2>
+          <div class="cv-experience-item">
+            <h3>VARD  Frontend-разработчик</h3>
+            <p class="cv-date">Май 2024  март 2026</p>
+            <p>Веб-приложение для управления базами данных и аналитикой: интерфейсы, авторизация, навигация, работа с API, бизнес-логика. Проект занял 1-е место на «Мегахакатоне».</p>
+          </div>
+        </section>
+
+        <section id="projects" class="cv-section">
+          <h2>Учебные проекты</h2>
+          <ul class="cv-section__links">
+            <li><a href="https://github.com/MamedovShuxrat/vard-project">VARD (MVP-проект)</a></li>
+            <li><a href="https://github.com/MamedovShuxrat/bus-tour">Bus tours  бронирование туров и автобусов</a></li>
+          </ul>
+        </section>
+
+        <section id="education" class="cv-section">
+          <h2>Образование</h2>
+          <ul>
+            <li><strong>SkillFactory</strong>  Фронтенд-разработчик (2024)</li>
+            <li><strong>Школа Бруноям</strong>  Web-разработчик, JS-разработчик (2023)</li>
+            <li><strong>Ланит-Терком</strong>  Летняя школа, разработка UI в командной среде (2023)</li>
+            <li><strong>Самаркандский экономический колледж</strong>  Менеджмент, Маркетинг (2009)</li>
+          </ul>
+        </section>
+
+        <section id="code" class="cv-section">
+          <h2>Пример кода</h2>
+          <pre><code>function isPolindrom(str) {
+    let reverseStr = str.split("").reverse().join("").toLowerCase();
+    return reverseStr === str.toLowerCase();
+    }</code></pre>
+        </section>
+
+        <section id="english" class="cv-section">
+          <h2>Английский язык</h2>
+          <p>Уровень: B1 (Intermediate)</p>
+        </section>
+      </main>
+    </div>
+
+    <footer class="cv-footer">
+      <a href="https://github.com/MamedovShuxrat" target="_blank">GitHub</a>
+      <span>2026</span>
+      <a href="https://rs.school">
+        <img src="./assets/images/rs-school-logo.svg" alt="RS School" class="cv-logo">
+      </a>
+    </footer>
+  </body>
+</html>
